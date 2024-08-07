@@ -13,7 +13,7 @@ helm:
     value: /healthz
     forcestring: false
   - name: image.tag
-    value: 0.1.2
+    value: 0.1.5
     forcestring: true
   - name: image.name
     value: 398094181254.dkr.ecr.us-east-1.amazonaws.com/users
