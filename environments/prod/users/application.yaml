@@ -25,7 +25,7 @@ spec:
       - name: image.tag
         value: 0.1.0
     path: helm-charts/users
-    repoURL: xxx
+    repoURL: git@github.com:brysonwaisi/kubernetes-repo.git
     targetRevision: main
   syncPolicy:
     automated:
