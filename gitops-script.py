@@ -9,7 +9,7 @@ from github import Auth, Github
 
 
 def pause(env, service, repo, branch):
-    """Pause Continuous Delivery (C/D) of the service in the target environment."""
+    """Pause Continuous Delivery (CD) of the service in the target environment."""
 
     file_path = f'environments/{env}/{service}/application.yaml'
     

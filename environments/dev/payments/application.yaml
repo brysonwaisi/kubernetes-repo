@@ -3,7 +3,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   annotations:
-    argocd-image-updater.argoproj.io/image-list: payments=398094181254.dkr.ecr.us-east-1.amazonaws.com/payments
+    argocd-image-updater.argoproj.io/image-list: payments=xxxx.dkr.ecr.us-east-1.amazonaws.com/payments
     argocd-image-updater.argoproj.io/payments.update-strategy: semver
     argocd-image-updater.argoproj.io/write-back-method: git
   finalizers:
@@ -19,7 +19,7 @@ spec:
     helm:
       parameters:
       - name: image.repository
-        value: 398094181254.dkr.ecr.us-east-1.amazonaws.com/payments
+        value: xxxx.dkr.ecr.us-east-1.amazonaws.com/payments
       - name: service.port
         value: '8080'
       - name: livenessProbe.httpGet.path

@@ -15,7 +15,7 @@ spec:
     helm:
       parameters:
       - name: image.repository
-        value: 398094181254.dkr.ecr.us-east-1.amazonaws.com/users
+        value: xxxx.dkr.ecr.us-east-1.amazonaws.com/users
       - name: service.port
         value: '8080'
       - name: livenessProbe.httpGet.path
