@@ -152,7 +152,7 @@ def get_repo(name):
 def main():
     """Entrypoint to the GitOps script."""
 
-    repository = get_repo('antonputra/k8s')
+    repository = get_repo('brysonwaisi/kubernetes-repo')
 
     args = options()
 
