@@ -4,6 +4,7 @@ kind: Application
 metadata:
   annotations:
     argocd-image-updater.argoproj.io/image-list: users=398094181254.dkr.ecr.us-east-1.amazonaws.com/users:0.x
+    argocd-image-updater.argoproj.io/users.ignore-tags: '*'
     argocd-image-updater.argoproj.io/users.update-strategy: semver
     argocd-image-updater.argoproj.io/write-back-method: git
   finalizers:
