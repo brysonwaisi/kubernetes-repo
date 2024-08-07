@@ -23,7 +23,7 @@ spec:
       - name: readinessProbe.httpGet.path
         value: /healthz
       - name: image.tag
-        value: 0.1.0
+        value: 0.1.2
     path: helm-charts/payments
     repoURL: git@github.com:brysonwaisi/kubernetes-repo.git
     targetRevision: main
