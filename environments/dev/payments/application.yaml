@@ -4,6 +4,7 @@ kind: Application
 metadata:
   annotations:
     argocd-image-updater.argoproj.io/image-list: payments=398094181254.dkr.ecr.us-east-1.amazonaws.com/payments
+    argocd-image-updater.argoproj.io/payments.ignore-tags: '*'
     argocd-image-updater.argoproj.io/payments.update-strategy: semver
     argocd-image-updater.argoproj.io/write-back-method: git
   finalizers:
