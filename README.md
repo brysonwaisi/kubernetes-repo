@@ -1,5 +1,5 @@
 ## GitOps with ArgoCD
-The repo houses the Manifests for various envs and deployments.
+The repo houses the Manifests for various envs, deployments and microservices.
 
 We also have a script that outlines the idea behind gitops and automation.
 
